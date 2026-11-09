@@ -11,7 +11,7 @@
 
 <h2>İşlenen bilgiler</h2>
 <ul>
-<li><strong>Yerel takip ve profil verileri:</strong> İsteğe bağlı ad, yaş, cinsiyet, boy, kilo ve beden ölçüleri; oruç oturumları, su ve öğün kayıtları, hedefler, aktivite bilgileri, ilerleme ve seri verileri, bildirim ayarları, dil, tema ve diğer uygulama tercihleri.</li>
+<li><strong>Yerel takip ve profil verileri:</strong> İsteğe bağlı ad, yaş, boy, kilo ve beden ölçüleri; oruç oturumları, su ve öğün kayıtları, hedefler, aktivite bilgileri, ilerleme ve seri verileri, bildirim ayarları, dil, tema ve diğer uygulama tercihleri.</li>
 <li><strong>Satın alma verileri:</strong> Satın alınan ürün, abonelik ve Premium hak durumu, mağaza işlem bilgileri ve RevenueCat tarafından oluşturulabilen anonim uygulama kullanıcı kimliği. Cey Studios ödeme kartı bilgilerinizi almaz veya saklamaz.</li>
 <li><strong>Reklam ve teknik veriler:</strong> Onay tercihi, reklam kimliği veya diğer cihaz tanımlayıcıları, IP adresinden türetilebilen yaklaşık konum, cihaz ve uygulama bilgileri, reklam etkileşimleri, çökme ve teşhis verileri; yalnızca geçerli izniniz, bölgesel kurallar ve cihaz ayarlarınız kapsamında Google Mobile Ads ve ilgili onay araçları tarafından işlenebilir.</li>
 <li><strong>Yemek fotoğrafları (Premium yapay zekâ analizi):</strong> Yalnızca yapay zekâ ile besin analizi özelliğini kendiniz başlattığınızda, seçtiğiniz veya çektiğiniz yemek fotoğrafı analiz edilmek üzere Google'ın Gemini API'sine gönderilir. Uygulama Gemini API'nin ücretsiz katmanını kullanır: Google gönderilen içeriği ürünlerini geliştirmek için kullanabilir ve insan inceleyiciler görebilir. Bu nedenle fotoğrafta kişi, belge veya başka kişisel bilgi bulunmamalıdır. Fotoğraf Cey Studios sunucularında saklanmaz; yalnızca hesaplanan kalori ve makro değerleri, siz kaydetmeyi seçerseniz cihazınızdaki öğün kaydına yazılır.</li>
@@ -35,7 +35,7 @@
 
 <h2>Veri saklama süreleri</h2>
 <ul>
-<li><strong>Yerel uygulama verileri:</strong> Siz ilgili kaydı silene, uygulama verilerini temizleyene veya uygulamayı kaldırana kadar cihazınızda saklanır. İşletim sistemi yedeklemesi açıksa yedek kopyaların saklanması ve silinmesi Apple, Google ve cihaz yedekleme ayarlarınız tarafından yönetilir.</li>
+<li><strong>Yerel uygulama verileri:</strong> Siz ilgili kaydı silene, uygulama verilerini temizleyene veya uygulamayı kaldırana kadar cihazınızda saklanır. Android'de şifreli veritabanı ve anahtarı cihaz yedeklerine ve cihaz aktarımına dahil edilmez; bu nedenle bu kayıtlar yeni bir telefona taşınmaz. Diğer uygulama tercihleri ile iOS cihaz yedekleri işletim sistemi ayarlarınıza göre yedeklenebilir; bu yedek kopyaların saklanması ve silinmesi Apple, Google ve cihaz yedekleme ayarlarınız tarafından yönetilir.</li>
 <li><strong>Satın alma ve Premium verileri:</strong> Uygulama satın alma veya abonelik hakkını doğrulamak için gerekli durumu abonelik ya da ömür boyu hak geçerli olduğu sürece kullanır. Google Play, Apple ve RevenueCat işlem, vergi, muhasebe, sahtekârlık önleme veya yasal yükümlülükler için gerekli kayıtları kendi saklama politikalarına göre daha uzun süre tutabilir. Cey Studios bağımsız bir ödeme kartı veya mağaza işlem veritabanı tutmaz.</li>
 <li><strong>Reklam, onay ve teşhis verileri:</strong> Cey Studios bu verilerin ham bir kopyasını kendi sunucusunda tutmaz. Google tarafından işlenen verilerin saklanması Google'ın politikalarına ve sizin reklam/gizlilik ayarlarınıza tabidir.</li>
 <li><strong>Yemek fotoğrafları:</strong> Fotoğraf yalnızca tek bir analiz isteği süresince işlenir. Cey Studios fotoğrafın bir kopyasını tutmaz; Google tarafından işlenen isteklerin saklanması Google'ın API politikalarına tabidir.</li>
@@ -48,7 +48,7 @@
 <p>Cey Studios ile ilişkilendirilebilen destek yazışmalarının veya üçüncü taraf hizmet kayıtlarının silinmesini talep etmek için <a href="mailto:berkaydumangoz@gmail.com?subject=Fasting%20Tracker%20veri%20silme%20talebi">berkaydumangoz@gmail.com</a> adresine yazın. Kimlik doğrulama için yalnızca gerekli bilgiler istenir ve uygulanabilir talepler 30 gün içinde sonuçlandırılır. Ayrıntılı adımlar için <a href="/delete-account/">veri silme sayfasına</a> bakın.</p>
 
 <h2>Veri güvenliği</h2>
-<p>Yerel veriler işletim sisteminin uygulama korumalı alanında tutulur. Üçüncü taraf hizmetlerle veri aktarımı şifreli HTTPS/TLS bağlantıları üzerinden yapılır. Hiçbir yöntem mutlak güvenlik sağlayamaz; ancak verinin niteliğine uygun makul teknik ve idari önlemler uygulanır.</p>
+<p>Oruç, kilo, öğün ve su kayıtları ile adınız ve vücut ölçüleriniz cihazınızda şifreli bir veritabanında saklanır; anahtarı Android Keystore destekli depolamada veya iOS Keychain'de tutulur. Güvenli anahtar deposuna geçici olarak erişilemezse bu veriler sorun giderilene kadar şifrelenmemiş kalabilir. Diğer uygulama tercihleri şifrelenmez ve işletim sisteminin uygulama korumalı alanında tutulur. Üçüncü taraf hizmetlerle veri aktarımı şifreli HTTPS/TLS bağlantıları üzerinden yapılır. Hiçbir yöntem mutlak güvenlik sağlayamaz; ancak verinin niteliğine uygun makul teknik ve idari önlemler uygulanır.</p>
 
 <h2>Çocuklar</h2>
 <p>Fasting Tracker 18 yaşından küçükler için değildir ve onlardan bilerek kişisel bilgi toplamaz. Uygulama, oruç özelliklerine geçmeden önce yaşınızı ve sağlık durumunuzu sorar.</p>
@@ -74,7 +74,7 @@
 
 <h2>Information handled</h2>
 <ul>
-<li><strong>Local tracking and profile data:</strong> Optional name, age, gender, height, weight, and body measurements; fasting sessions, water and meal logs, goals, activity information, progress and streak data, notification settings, language, theme, and other app preferences.</li>
+<li><strong>Local tracking and profile data:</strong> Optional name, age, height, weight, and body measurements; fasting sessions, water and meal logs, goals, activity information, progress and streak data, notification settings, language, theme, and other app preferences.</li>
 <li><strong>Purchase data:</strong> Purchased product, subscription and Premium entitlement status, store transaction information, and an anonymous app user identifier that RevenueCat may generate. Cey Studios does not receive or retain payment card details.</li>
 <li><strong>Advertising and technical data:</strong> Consent choice, advertising or other device identifiers, approximate location inferred from IP address, device and app information, ad interactions, crash data, and diagnostics may be processed by Google Mobile Ads and related consent tools, subject to your valid consent, regional rules, and device settings.</li>
 <li><strong>Meal photos (Premium AI analysis):</strong> Only when you start the AI nutrition analysis yourself, the meal photo you take or select is sent to Google's Gemini API for analysis. The app uses the unpaid tier of the Gemini API: Google may use submitted content to improve its products and human reviewers may read it, so photos should not include people, documents or other personal information. The photo is not stored on Cey Studios servers; only the resulting calorie and macro values are written to the meal log on your device, and only if you choose to save them.</li>
@@ -98,7 +98,7 @@
 
 <h2>Data retention</h2>
 <ul>
-<li><strong>Local app data:</strong> Retained on your device until you delete the relevant record, clear the app's storage, or uninstall the app. If operating-system backup is enabled, retention and deletion of backup copies are controlled by Apple, Google, and your device backup settings.</li>
+<li><strong>Local app data:</strong> Retained on your device until you delete the relevant record, clear the app's storage, or uninstall the app. On Android, the encrypted database and its key are excluded from device backups and device transfer, so these records do not move to a new phone. Other app preferences and iOS device backups may be backed up according to your operating system settings; retention and deletion of those backup copies are controlled by Apple, Google, and your device backup settings.</li>
 <li><strong>Purchase and Premium data:</strong> The app uses the status needed to validate a purchase or entitlement for as long as the subscription or lifetime entitlement remains applicable. Google Play, Apple, and RevenueCat may retain transaction, tax, accounting, fraud-prevention, or legally required records longer under their own retention policies. Cey Studios does not maintain a separate payment-card or store-transaction database.</li>
 <li><strong>Advertising, consent, and diagnostic data:</strong> Cey Studios does not retain a raw copy of this data on its own servers. Data processed by Google is retained under Google's policies and your advertising or privacy settings.</li>
 <li><strong>Meal photos:</strong> A photo is processed only for the duration of a single analysis request. Cey Studios keeps no copy of it; retention of the requests processed by Google is governed by Google's API policies.</li>
@@ -111,7 +111,7 @@
 <p>To request deletion of support correspondence or third-party service records that can be associated with you by Cey Studios, email <a href="mailto:berkaydumangoz@gmail.com?subject=Fasting%20Tracker%20data%20deletion%20request">berkaydumangoz@gmail.com</a>. We request only information necessary to verify the request and complete applicable requests within 30 days. See the <a href="/delete-account/">data deletion page</a> for detailed steps.</p>
 
 <h2>Data security</h2>
-<p>Local data is kept within the operating system's app sandbox. Transfers to third-party services use encrypted HTTPS/TLS connections. No method is completely secure, but reasonable technical and organizational safeguards appropriate to the nature of the data are used.</p>
+<p>Fasting, weight, meal, and water records, along with your name and body measurements, are stored in an encrypted database on your device, with its key in Android Keystore-backed storage or the iOS Keychain. If the secure key store is temporarily unavailable, this data may remain unencrypted until the problem clears. Other app preferences are not encrypted and are kept within the operating system's app sandbox. Transfers to third-party services use encrypted HTTPS/TLS connections. No method is completely secure, but reasonable technical and organizational safeguards appropriate to the nature of the data are used.</p>
 
 <h2>Children</h2>
 <p>Fasting Tracker is not intended for anyone under 18 and does not knowingly collect personal information from them. The app asks about your age and health before giving access to fasting features.</p>
