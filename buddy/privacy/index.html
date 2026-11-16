@@ -1,0 +1,120 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Buddy / Hayatını Planla — Gizlilik Politikası</title><style>body{margin:0;background:#fff8ed;color:#242044;font:17px/1.7 system-ui,sans-serif}main{max-width:900px;margin:auto;padding:40px 24px 80px}h1{font-size:32px;line-height:1.25}h2{margin-top:48px}a{color:#325da7}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto}td,th{border:1px solid #c6c1d0;padding:10px;text-align:left}nav{margin-bottom:32px}</style></head><body><main><nav>Buddy · Hayatını Planla · CEY Studio · com.kedi.dehb_destek</nav><h1>Buddy: Sanal Arkadaşın — Gizlilik Politikası / Privacy Policy</h1>
+<p><strong>Güncelleme / Updated: 16 Kasım / November 2026</strong></p>
+<h2>Türkçe</h2>
+<h3>Sorumlu ve iletişim</h3>
+<p>Veri sorumlusu <strong>Umut Ceylan</strong>'dır. Gizlilik, erişim ve silme talepleri: <a href="mailto:dehbkoclugu@gmail.com">dehbkoclugu@gmail.com</a>. Kullandığınız hesabı belirtin; ilaç adlarını, notlarınızı, şifrenizi veya doğrulama kodlarını göndermeyin. Hesap verilerinde işlem yapmadan önce hesap sahipliğinin doğrulanması gerekebilir.</p>
+<h3>Cihaz ve hesap verileri</h3>
+<p>İlaç/hatırlatma, görev, alışkanlık, not, ruh hali, uyku, su, öğün/kalori, öz bakım, tuvalet zamanı, pomodoro, finans, özel gün ve acil kişi kayıtları cihazda saklanır. Pet, başarımlar, seri ve tercihler de yerel veridir. Bazı kayıtlar sağlık durumunuz veya günlük davranışlarınız hakkında bilgi verebilir.</p>
+<p>Veri işleme <strong>yalnız cihazla sınırlı değildir</strong>. Firebase Authentication açılışta anonim uygulama hesabı oluşturabilir. Google hesabı bağlanınca hesap kimliği, ad ve e-posta kimlik doğrulamada kullanılır. Premium ve bağlı Google birlikte mevcutsa, sağlık, not ve finans dahil uygulama modülleri Firestore'a yedeklenebilir. Hesap kimliği, e-posta, görünen ad ve eşitleme zamanı da bulutta tutulabilir.</p>
+<p>Hesap değişiminde otomatik yedek duraklatılabilir. Yedek ekranı buluttan geri yükleme veya bu cihazı yedekleme seçimi sunar. Yükleme buluttaki önceki görüntüyü, geri yükleme cihazdaki kayıtları değiştirebilir. Google bağlamamak bu yedek akışının bir koşulunu sağlamaz; diğer SDK işlemlerini kapatmaz.</p>
+<h3>Yemek fotoğrafından tahmin</h3>
+<p>Premium yemek taraması sırasında seçtiğiniz fotoğraf, ekrandaki gönderme onayınızdan sonra Google Gemini API'ye yemek, kalori ve makro besin tahmini için gönderilir. Uygulama fotoğrafı kendi bulut yedeğine kaydetmez. Kamerayla çekilen fotoğrafın geçici kopyası cihazın fotoğraf seçici önbelleğinde bulunabilir. Kaydettiğiniz yemek adı ve düzenlediğiniz kalori, diğer öğün kayıtlarıyla aynı saklama ve yedekleme kurallarına tabidir. API sağlayıcısının veri işleme koşulları kullanılan Gemini hizmet planına bağlıdır. Tarama sayacı cihazda tutulur.</p>
+<h3>Diğer hizmetler</h3>
+<table>
+<thead>
+<tr>
+<th>Hizmet</th>
+<th>Veri ve amaç</th>
+<th>Koşul</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Firebase Analytics</td>
+<td>Uygulama/özellik kullanımı, görev/pet işlemleri, seri sayıları, başarımlar, bildirim, reklam ve satın alma olayları. İlaçla ilişkili olay adı davranış çıkarımına izin verebilir. Bağlantı açılışı adres veya davet kodu olmadan olay olarak sayılır.</td>
+<td>Mevcut sürümde ayrı uygulama içi Analytics kapatma anahtarı yoktur. SDK teknik tanımlayıcılar da işleyebilir.</td>
+</tr>
+<tr>
+<td>Bildirimler</td>
+<td>Güncel sürümde hatırlatmalar cihazda yerel olarak zamanlanır. Eski sürümler Firebase Cloud Messaging cihaz token'ı kullanmış olabilir.</td>
+<td>Bildirim izni ve cihaz ayarlarına bağlıdır.</td>
+</tr>
+<tr>
+<td>Google AdMob</td>
+<td>Reklam gösterimi/etkileşimi, reklam kimliği ve diğer cihaz tanımlayıcıları, IP adresinden çıkarılabilen yaklaşık konum, teknik teşhis ve uygulama performans bilgileri.</td>
+<td>Premium olmayan kullanıcıya reklam sunulduğunda; onay/kişiselleştirme bölge ve SDK davranışına bağlıdır.</td>
+</tr>
+<tr>
+<td>RevenueCat ve uygulama mağazası</td>
+<td>Satın alma/abonelik durumu, mağaza işlem bilgisi ve uygulama kullanıcı kimliği.</td>
+<td>Satın alma altyapısı başlatıldığında ve satın alma/geri yüklemede. Uygulama kendi kart bilgisi formunu sunmaz.</td>
+</tr>
+<tr>
+<td>Liderlik servisi</td>
+<td>Ayrı rastgele liderlik kimliği, pet/görünen ad, pet değerleri ve seviye, başarımlar/sayaçlar, seri ve günlük aktivite özeti.</td>
+<td>Önceki sürümlerde liderlik eşitlemesinde. Bu sürümde liderlik kapalıdır. Bu kimlik Firebase hesabından ayrıdır; değerler sağlık davranışı hakkında çıkarıma elverişli olabilir.</td>
+</tr>
+</tbody>
+</table>
+<p>Sağlayıcılar IP adresi ve teknik günlükler işleyebilir. Bazı sunucular Türkiye dışında olabilir; kodda liderlik uç noktası ABD bölgesindedir. Uçtan uca şifreleme taahhüdü verilmez.</p>
+<h3>Dosyalar ve saklama</h3>
+<p>Dışa aktarılan JSON yedekleri ve CSV dosyaları okunabilir açık metindir. Paylaştığınız kişi/uygulama içeriği okuyabilir; bu dosyaların erişimini ve silinmesini siz yönetirsiniz. Android sistem yedekleme ve cihaz taşıma, cihaz ayarlarına bağlı olarak yerel verileri işletim sistemi hesabınıza kopyalayabilir. Uygulamayı kaldırmak bulut, sistem yedeği veya dışa aktarılmış kopyaları otomatik olarak silmez.</p>
+<p>İlaç kullanım geçmişi ve tarihli yemek kaydı bugün dahil son 90 takvim günüyle sınırlıdır; temizlik kayıt/taşıma sırasında çalışır. Diğer yerel modüllerin çoğunda otomatik süre sonu yoktur. Bozuk veri kurtarma kopyaları cihazda ve yerel yedekte kalabilir; uygulamanın bulut modüllerine alınmaz. Firestore yedeği değiştirilene veya silme tamamlanana kadar kalabilir. Diğer sağlayıcıların saklama süreleri kendi hizmetlerine ve hesap/cihaz ayarlarına bağlıdır; bütün hizmetler için tek silme süresi taahhüt edilmez.</p>
+<h3>Kontroller ve talepler</h3>
+<p>Kayıtları düzenleyebilir, yerel yedek dışa aktarabilir ve destek adresine erişim/silme talebi iletebilirsiniz. Yedekleme → Hesap ve bulut verileri bölümündeki silme düğmesi, onay ve gerektiğinde Google ile yeniden doğrulama sonrasında uygulama Firebase hesabını ve bu hesaba ait Firestore modülleri/hesap metadatasını kaldırır. Yerel takip kayıtları ve dışa aktardığınız dosyalar korunur. Yarım kalan işlem yeniden denenebilir; otomatik bulut yedeği tamamlanana kadar kapalı kalır. Yeni anonim oturum kurulamamışsa yeniden başlatma gerekir. Liderlik kimliği, mağaza ve diğer sağlayıcı kayıtları Firebase hesabından ayrıdır. Talebin hangi hizmetleri kapsadığını belirtin.</p>
+<p>Hesap silmek veya uygulamayı kaldırmak aboneliği iptal etmez; mağazanın abonelik yönetiminden ayrıca iptal edin. Abonelik iptali, silme talebi için ön koşul değildir.</p>
+<p>Uygulanabilir hukuk kapsamında işleme hakkında bilgi, amaç ve alıcılara ilişkin açıklama, yanlış verinin düzeltilmesi, uygun koşullarda silme/yok etme, ilgili alıcılara bildirim, otomatik değerlendirmeye itiraz ve hukuka aykırı işlemden doğan zararların giderilmesini talep edebilirsiniz. Başvurular destek adresinden, gerektiğinde kimlik ve kapsam doğrulamasıyla yürütülür. Yetkili otoriteye başvuru haklarınız saklıdır. Bu politika, sağlık verileri için ayrı açık rızanın yerine geçmez.</p>
+<h2>English</h2>
+<h3>Controller and contact</h3>
+<p>The controller is <strong>Umut Ceylan</strong>. Contact <a href="mailto:dehbkoclugu@gmail.com">dehbkoclugu@gmail.com</a> for privacy, access and deletion requests. Identify your app account; do not send medication names, notes, passwords or verification codes. Account ownership may need verification before acting on account data.</p>
+<h3>Device and account data</h3>
+<p>Medication/reminder, task, habit, note, mood, sleep, water, meal/calorie, self-care, toilet-time, pomodoro, financial, special-day and emergency-contact records are stored locally, along with pet state, achievements, streaks and preferences. Some records may reveal health conditions or daily behavior.</p>
+<p>Processing is <strong>not limited to your device</strong>. Firebase Authentication may create an anonymous app account on startup. Linking Google uses account identity, name and email for authentication. When both Premium and a linked Google account are available, app modules, including health, notes and finances, may be backed up to Firestore. Account ID, email, display name and sync metadata may also be stored there.</p>
+<p>Automatic backup can pause after an account change. The backup screen offers restoring the cloud backup or backing up this device. Upload can replace existing cloud records; restore can replace local records. Not linking Google prevents one backup prerequisite; it does not disable the other SDK processing below.</p>
+<h3>Food photo estimates</h3>
+<p>After you confirm sending a selected photo, Premium food scanning sends it to the Google Gemini API to estimate foods and calories. The app does not add the photo to its own cloud backup. A camera capture may remain temporarily in the device image picker's cache. The meal name and edited calories you save follow the storage and backup rules for other meal entries. Provider processing depends on the Gemini service plan. The scan counter is stored on the device.</p>
+<h3>Other services</h3>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Information and purpose</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Firebase Analytics</td>
+<td>App/feature use, task/pet actions, streak counts, achievements, notifications, ads and purchase events. Medication-related event names may reveal behavior. A link opening is counted as an event without its address or referral code.</td>
+<td>The current app has no separate Analytics opt-out switch. The SDK may also process technical identifiers.</td>
+</tr>
+<tr>
+<td>Notifications</td>
+<td>Reminders in the current version are scheduled locally on the device. Older versions may have used Firebase Cloud Messaging device tokens.</td>
+<td>Subject to notification permission and device settings.</td>
+</tr>
+<tr>
+<td>Google AdMob</td>
+<td>Ad impressions/interactions, advertising and other device identifiers, approximate location inferred from IP address, technical diagnostics and app performance information.</td>
+<td>When ads are served to non-Premium users. Consent/personalization depends on region and SDK handling.</td>
+</tr>
+<tr>
+<td>RevenueCat and app stores</td>
+<td>Purchase/subscription status, store transaction information and an app user identifier.</td>
+<td>Purchase infrastructure startup and purchase/restore operations. The app has no payment-card entry form of its own.</td>
+</tr>
+<tr>
+<td>Leaderboard service</td>
+<td>Separate random leaderboard ID, pet/display name, pet state/level, achievements/counters, streak and daily activity summaries.</td>
+<td>During leaderboard sync in older versions. Leaderboard sync is disabled in this version. This ID is separate from Firebase; its values may support health-behavior inferences.</td>
+</tr>
+</tbody>
+</table>
+<p>Providers may process IP addresses and technical logs. Some servers may be outside Türkiye; the leaderboard endpoint uses a US region. No end-to-end encryption commitment is made.</p>
+<h3>Files and retention</h3>
+<p>Exported JSON backups and CSV files contain readable plaintext. People/apps you share them with can read their contents; you control access and deletion of those copies. Android system backup/device transfer may copy local data to your operating-system account depending on settings. Uninstalling does not automatically delete cloud, system-backup or exported copies.</p>
+<p>Medication adherence and dated meals are limited to the last 90 calendar days including today; cleanup runs during writes/migration. Most other local modules have no automatic expiry. Corrupt-data recovery copies may remain locally and in local backups; application cloud modules exclude them. Firestore backups may remain until replaced or deletion completes. Other providers' retention depends on their services and account/device settings; no single deletion deadline is promised for all services.</p>
+<h3>Controls and requests</h3>
+<p>You can edit records, export backups and request access/deletion through support. The deletion action under Backup → Account and cloud data removes the app Firebase account and its Firestore modules/account metadata after confirmation and Google reauthentication when needed. Local tracking records and exported files remain. Interrupted deletion can be retried, with automatic cloud backup blocked until completion. Restart if a new guest session could not be established. Leaderboard IDs, stores and other provider records are separate from Firebase. Specify which services a request concerns.</p>
+<p>Deleting an account or uninstalling does not cancel subscriptions; manage cancellation in the store separately. Cancelling a subscription is not required before requesting deletion.</p>
+<p>Subject to applicable law, you may request processing information, purposes and recipients, correction, erasure/destruction where applicable, notification to recipients, objection to automated evaluation and remedies for unlawful processing. Contact support; identity and scope may need verification. Rights to contact a competent authority remain available. This policy is not a substitute for separate health-data consent.</p>
+<h2>Kaynaklar / Sources</h2>
+<p><a href="https://www.kvkk.gov.tr/Icerik/2033/Aydinlatma-Yukumlulugu-">KVKK aydınlatma</a>, <a href="https://www.kvkk.gov.tr/Icerik/2036/Ilgili-Kisinin-Haklari">KVKK haklar</a>, <a href="https://firebase.google.com/support/privacy">Firebase privacy</a>, <a href="https://www.revenuecat.com/privacy">RevenueCat privacy</a>, <a href="https://support.google.com/googleplay/android-developer/answer/13327111?hl=en">Google Play hesap silme</a>, <a href="https://support.google.com/googleplay/answer/7018481">Google Play abonelik yönetimi</a>, <a href="https://support.apple.com/118428">Apple abonelik yönetimi</a>.</p>
+<h2>Teknik hata raporları / Technical crash reports</h2>
+<p>Firebase Crashlytics, release sürümünde teknik hata/çökme raporları için eklenmiştir. Dart raporlarına hata mesajınız, ilaç veya not içeriği, adınız, e-posta ya da uygulama uid değeri eklenmez; sabit hata sınıfı ve filtrelenmiş kod konumları gönderilir. SDK ayrıca teknik cihaz, işletim sistemi, uygulama sürümü ve kurulum tanımlayıcıları işleyebilir; Analytics bağlantısı olay izleri ekleyebilir.</p>
+<p>Firebase Crashlytics is integrated for technical error/crash reports in release builds. Dart reports omit exception messages, medication/note content, names, email addresses and app uids; they contain fixed error categories and filtered code locations. The SDK may also process technical device, operating system, app version and installation identifiers; Analytics integration may add event breadcrumbs.</p>
+<h2>Hesap ve veri silme / Account and data deletion</h2>
+<p><a href="../account-deletion/">Silme talebi adımları / Deletion request instructions</a>.</p>
+<p>Google Analytics, AdMob ve Crashlytics teknik tanımlayıcıları ve uygulama etkileşimlerini işleyebilir; AdMob yaklaşık konumu IP adresinden çıkarabilir. / Google Analytics, AdMob and Crashlytics may process technical identifiers and app interactions; AdMob may infer approximate location from the IP address.</p>
+<p>Ücretsiz Gemini API hizmetlerinde gönderilen fotoğraflar ve yanıtlar Google hizmetlerini iyileştirmek için kullanılabilir ve incelemeye tabi olabilir. Ücretli hizmetlerde farklı veri işleme koşulları uygulanır. Fotoğrafta kişisel veya hassas bilgiler bulunmamasına dikkat edin. / In unpaid Gemini API services, submitted photos and responses may be used to improve Google services and may be reviewed. Paid services apply different data handling terms. Avoid including personal or sensitive information in a photo. <a href="https://ai.google.dev/gemini-api/terms">Gemini koşulları / terms</a>.</p>
+</main></body></html>
